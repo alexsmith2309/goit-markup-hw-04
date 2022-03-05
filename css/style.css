@@ -129,6 +129,7 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 200px 0;
+    background-image:url(../images/imghero.jpg);
 }
 .about-us-list {
     display: flex;
