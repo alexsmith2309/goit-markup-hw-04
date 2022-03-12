@@ -198,10 +198,11 @@ padding-bottom: 0;
     color: var(--secondary-color);
 }
 .social-list-link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
-    background-color: #FFFFFF;
     border-radius: 50%;
 }
 .footer {
