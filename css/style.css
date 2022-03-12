@@ -7,6 +7,7 @@
     --white-color: #fff;
     --accent-color: #2196f3;
     --background-secondary-color: #2F303A;
+    --icons-color: #AFB1B8;
 }
 /* basic settings */
 body  {
@@ -122,6 +123,9 @@ h1 {
     color: var(--secondary-color);
     width: 270px;
 }
+.list-of-benefits-icon {
+    margin: 25px 100px;
+}
 .hero {
     background-color: var(--background-secondary-color);
     display: flex;
@@ -188,6 +192,8 @@ padding-bottom: 0;
 .employess-text {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 30px;
 }
 .position-of-employees {
     font-weight: 400;
@@ -196,6 +202,7 @@ padding-bottom: 0;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
+    margin-bottom: 16px;
 }
 .social-list-link {
     display: flex;
@@ -204,6 +211,31 @@ padding-bottom: 0;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    fill: var(--icons-color);
+}
+.social-list-link:hover,
+.social-list-link:focus {
+    fill: var(--white-color);
+}
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--accent-color);
+}
+.social-list {
+    display: flex;
+}
+.social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+/*sectoin clients*/
+.clients {
+    display: flex;
+}
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
 }
 .footer {
     background-color: var(--background-secondary-color);
@@ -244,7 +276,7 @@ padding-bottom: 0;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
 }
-.footer-list:not(:last-child) {
+.footer-list-:not(:last-child) {
     margin-bottom: 9px;
 }
 /* button */
