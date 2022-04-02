@@ -150,7 +150,6 @@ h1 {
         ), 
         url("../images/imghero.jpg");
     background-size:cover;
-    width: 1600px;
     margin: 0 auto;
 }
 .about-us-list {
@@ -264,6 +263,10 @@ padding-bottom: 0;
     justify-content: center;
     width: 170px;
     height: 92px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 .clients-link-item:not(:last-child) {
     margin-right: 30px;
@@ -271,11 +274,13 @@ padding-bottom: 0;
 .clients-link:hover,
 .clients-link:focus {
     fill: var(--accent-color);
+    border: 1px solid #2196F3;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 .footer {
     background-color: var(--background-secondary-color);
     padding: 60px 0;
-    width: 1600px;
     margin: 0 auto;
 }
 .footer-section {
